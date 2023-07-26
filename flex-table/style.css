@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+}
+.container .box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 10px;
+    display: flex;
+}
+.container .box .left-side{
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.left-side header{
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: flex-start;
+}
+.left-side header .logo{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+}
+.left-side header .logo img{
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+.right-side header .logo{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+}
+.right-side header .logo img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    }
+    .right-side header{
+        width: 100%;
+        height: 30%;
+    
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        justify-content: flex-start;
+    }
+.content{
+   padding-left: 20px;
+   text-align: justify;
+}
+.content h4{
+    padding-bottom: 10px;
+    width: 80%;
+}
+.content p{
+    width: 80%;
+}
+.left-side header .title{
+    width: 80%;
+  
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.left-side header .title h5{
+    font-size: 20px;
+}
+.left-side header .title p{
+    font-size: 10px;
+}
+.left-side .left-first{
+  width: 60%;
+  height: 50%;
+border: 1px solid black;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.left-side .left-second{
+   width: 35%;
+   height: 50%;
+   border: 1px solid black;
+   border-radius: 10px;
+   background-color: beige;
+} 
+.left-side .left-three{
+    width: 35%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+  }
+  .left-side .left-four{
+     width: 60%;
+     height: 50%;
+     border: 1px solid black;
+     border-radius: 10px;
+     background-color: aqua;
+     background-color: beige;
+  } 
+  .right-side{
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+
+  }
